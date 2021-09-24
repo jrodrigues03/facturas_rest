@@ -5,7 +5,7 @@ pipeline{
 
         stage("descargar el código de la app"){
             steps{
-               git "url"
+               git "https://github.com/jrodrigues03/facturas_rest.git"
             }
 
         }
